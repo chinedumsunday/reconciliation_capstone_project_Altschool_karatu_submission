@@ -1,9 +1,5 @@
 CREATE DATABASE IF NOT EXISTS quickcart_reconcilitation;
 
-\i './schema.sql'
-\i './quickcart_data/seed_orders.sql'
-\i './quickcart_data/seed_payments.sql'   
-\i './quickcart_data/seed_bank_settlements.sql'
 
 WITH successful_payments AS (
     SELECT 
