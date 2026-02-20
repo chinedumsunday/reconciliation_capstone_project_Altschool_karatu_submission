@@ -1,7 +1,0 @@
-quickcart_data/
-__pycache__/
-env/
-venv/
-/generate_quickcart_data.py
-/schema.sql
-/logs/
